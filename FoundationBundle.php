@@ -1,6 +1,6 @@
 <?php
 
-namespace FoundationBundle;
+namespace Nemke\FoundationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

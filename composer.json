@@ -1,0 +1,26 @@
+{
+    "name":        "nemke/foundation-bundle",
+    "type":        "symfony-bundle",
+    "description": "Simple ZURB Foundation Bundle for Symfony2",
+    "keywords":    ["responsive", "foundation", "symfony"],
+    "homepage":    "http://foundation.zurb.com/docs/",
+    "license":     ["MIT"],
+    "authors":     [
+        {
+            "name":     "Nemanja Andrejevic",
+            "email":    "andrejevicnemanja@gmail.com",
+            "homepage": "https://www.nmdesign.rs/"
+        }
+    ],
+    "require":     {
+        "symfony/framework-bundle": ">=2.1",
+    },
+    "recommend":   {
+    },
+    "autoload":    {
+        "psr-0": {
+            "Nemke\\FoundationBundle": ""
+        }
+    },
+    "target-dir":  "Nemke/FoundationBundle"
+}
